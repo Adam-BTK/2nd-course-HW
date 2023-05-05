@@ -17,6 +17,9 @@ body {
   background-position: center;
   background-size: cover;
   height: 1024px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .header__title {
@@ -27,7 +30,6 @@ body {
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  width: 798px;
   padding-top: 217px;
 }
 
@@ -66,7 +68,8 @@ body {
   background-size: cover;
   height: 556px;
   display: flex;
-  justify-content: space-between;
+  gap: 32px;
+  flex-wrap: wrap;
 }
 
 .game__block {

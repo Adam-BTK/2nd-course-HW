@@ -57,6 +57,7 @@ body {
   padding-left: 74px;
   padding-right: 74px;
   box-sizing: border-box;
+  outline: none;
 }
 
 .games {

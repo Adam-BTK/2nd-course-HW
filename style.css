@@ -76,7 +76,7 @@ a {
   flex-wrap: wrap;
 }
 
-.game__block {
+.games__block {
   border-radius: 18px;
   width: 378px;
   height: 300px;
@@ -85,19 +85,19 @@ a {
   align-items: flex-end;
 }
 
-.game__block1 {
+.games__block1 {
   background-image: url(./images/game_1.jpg);
 }
 
-.game__block2 {
+.games__block2 {
   background-image: url(./images/game_2.jpg);
 }
 
-.game__block3 {
+.games__block3 {
   background-image: url(./images/game_3.jpg);
 }
 
-.game__title {
+.games__title {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -107,6 +107,6 @@ a {
   margin-left: 32px;
 }
 
-.game__title:hover {
+.games__title:hover {
   text-decoration: underline;
 }

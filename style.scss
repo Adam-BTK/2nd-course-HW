@@ -47,6 +47,11 @@
     padding-right: 74px;
     box-sizing: border-box;
     border: none;
+    transition: all 500ms ease;
+  }
+
+  &__button:hover {
+    transform: skew(-20deg);
   }
 }
 
@@ -62,10 +67,17 @@
   &__block {
     border-radius: 18px;
     width: 378px;
-    height: 300px;
-    // margin-top: 128px;
+    height: 300px;    
     display: flex;
     align-items: flex-end;
+    transition: all 0.3s;
+  }
+
+  &__block:hover{
+    box-shadow: 0 0 10px #FFFFFF;
+    box-shadow: 0 0 10px #FFFFFF;
+    transform: scale(1.05);
+    transform: scale(1.05);
   }
 
   &__block1 {

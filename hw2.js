@@ -1,8 +1,7 @@
-// let password = 'qwerty123';
-// let passRequest = String(prompt('Введите пароль'));
-// passRequest = passRequest.toLowerCase();
-// let result = (passRequest === password) ? 'Пароль введен верно' : 'Пароль введен неправильно';
-// console.log(result);
+let password = 'qwerty123';
+let passRequest = prompt('Введите пароль');
+let result = (passRequest === password) ? 'Пароль введен верно' : 'Пароль введен неправильно';
+console.log(result);
 
 // Задача 1
 
@@ -86,6 +85,10 @@
 // }  else {
 //   alert('Установите версию приложения для Android по ссылке')
 // }
+// Или через тернарный оператор:
+
+// let download = (clientOS === 0) ? alert('Установите версию приложения для iOS по ссылке') : alert('Установите версию приложения для Android по ссылке');
+
 
 // Задача 8
 

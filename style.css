@@ -61,6 +61,10 @@ a {
   padding-right: 74px;
   box-sizing: border-box;
   border: none;
+  transition: all 500ms ease;
+}
+.header__button:hover {
+  transform: skew(-20deg);
 }
 
 .games {
@@ -78,6 +82,13 @@ a {
   height: 300px;
   display: flex;
   align-items: flex-end;
+  transition: all 0.3s;
+}
+.games__block:hover {
+  box-shadow: 0 0 10px #FFFFFF;
+  box-shadow: 0 0 10px #FFFFFF;
+  transform: scale(1.05);
+  transform: scale(1.05);
 }
 .games__block1 {
   background-image: url(./images/game_1.jpg);

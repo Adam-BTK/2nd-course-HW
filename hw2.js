@@ -1,7 +1,7 @@
-let password = 'qwerty123';
-let passRequest = prompt('Введите пароль');
-let result = (passRequest === password) ? 'Пароль введен верно' : 'Пароль введен неправильно';
-console.log(result);
+// let password = 'qwerty123';
+// let passRequest = prompt('Введите пароль');
+// let result = (passRequest === password) ? 'Пароль введен верно' : 'Пароль введен неправильно';
+// console.log(result);
 
 // Задача 1
 

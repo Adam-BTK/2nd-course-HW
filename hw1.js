@@ -68,6 +68,7 @@ let reply2 = 'Имя';
 if (info == 'Возраст') {
   alert(`Пользователю ${user.age} лет`);
 } else {alert(`Пользователя зовут ${user.name}`)}
+
 // Задание 9.4
 
 let userName = prompt('Как вас зовут?')
